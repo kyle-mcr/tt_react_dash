@@ -1,0 +1,64 @@
+#navbar {
+    width: 100%;
+    height: 100%;
+    background: #404040;
+    border-bottom: 2px solid black;
+  }
+  .Nav_link, a {
+    background-color: transparent;
+    padding: 1px 1px;
+    color: white;
+    transition: 0.5s;
+    font-size: 2vw;
+    margin-top: 2%;
+    margin-bottom:2%;
+    margin-left:5%;
+    text-decoration: none;
+    border-color: transparent;
+    display: inline-block;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .Nav_link:hover, a:hover {
+    background-color: transparent;
+    color: yellow;
+    border-color: transparent;
+    padding: 1px 1px;
+    transition: 0.5s;
+    font-size: 2vw;
+    margin-top: 2%;
+    margin-bottom:2%;
+    margin-left:5%;
+    text-decoration: none;
+    border-color: transparent;
+    display: inline-block;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  #logo {
+    width: 12%;
+    margin: 2vh;
+    display: inline-block;
+    vertical-align: top;
+  }
+  #table{
+      width:85%;
+      margin:5% 10% 0px 7%;
+  }
+  #on{
+      color:green;
+  }
+  #off{
+      color:red;
+  }
+  #body{
+      background-color: #C6C6C5;
+  }
+  #redbutton{
+      padding:0px;
+      margin-top:-5%;
+      margin-left:1%;
+  }
+  #greenbutton{
+      margin:2%;
+  }

@@ -1,24 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/NavBar";
+import PrivateRoute from "./components/PrivateRoute";
+
+// New - import the React Router components, and the Profile page component
+import { Router, Route, Switch } from "react-router-dom";
+import Profile from "./components/Profile";
+import history from "./utils/history";
+import Home from './components/Home';
+import Dashboard from "./components/Dashboard";
+import Devices from "./components/Devices";
+import Accounts from "./components/Accounts";
+import Pickups from "./components/Pickups";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Don't forget to include the history module */}
+      <Router history={history}>
+        <header>
+          <NavBar />
+        </header>
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <PrivateRoute path="/dashboard" component={Dashboard} />
+          <PrivateRoute path="/devices" component={Devices} />
+          <PrivateRoute path="/accounts" component={Accounts} />
+          <PrivateRoute path="/pickups" component={Pickups} />
+          <PrivateRoute path="/profile" component={Profile} />
+        </Switch>
+      </Router>
+
     </div>
   );
 }
