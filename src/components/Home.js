@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { useAuth0 } from "../react-auth0-spa";
 import "./Home.css";
 import img from './ttlogo.png';
-import wood from './wood.jpg';
+import waste from './waste.jpg';
 import recycle from './recycle.jpg';
 
 const Home = () => {
@@ -20,8 +20,10 @@ const Home = () => {
 
   return (
     <Fragment>
-     <div class="parent">
-      <img class="image1" src={wood} alt="TT"/>
+     <div class="loading">
+      <img class="image1" src={waste} alt="TT"/>
+      </div>
+      <div id="message">
       <img class="image2" src={img} alt="TT"/>
       </div>
     </Fragment>

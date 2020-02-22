@@ -7,12 +7,14 @@
     position: relative;
     top: 0;
     left: 0;
+    height:100%;
+    width:100%;
   }
   .image2 {
     position: absolute;
     top: 15%;
-    left: 25%;
-    width: 50%;
+    left: 70%;
+    width: 25%;
   }
   #loading{
       background: #1B2B57;
@@ -20,11 +22,6 @@
       width:100%;
   }
 
-  h1{
-      margin: 75% 10% 0% 30%;
-      width:40%;
-      color:white;
-  }
   .image3{
     height:100%;
     width:100%;
@@ -32,6 +29,6 @@
   .image4{
     position: absolute;
     top: 20%;
-    left: 30%;
+    left: 33%;
     width: 35%; 
   }
