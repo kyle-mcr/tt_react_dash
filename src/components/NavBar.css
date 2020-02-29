@@ -9,10 +9,10 @@
     padding: 1px 1px;
     color: white;
     transition: 0.5s;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 2%;
     margin-bottom:2%;
-    margin-left:5%;
+    margin-left:7%;
     text-decoration: none;
     border-color: transparent;
     display: inline-block;
@@ -25,10 +25,10 @@
     border-color: transparent;
     padding: 1px 1px;
     transition: 0.5s;
-    font-size: 2vw;
+    font-size: 1.6vw;
     margin-top: 2%;
     margin-bottom:2%;
-    margin-left:5%;
+    margin-left:7%;
     text-decoration: none;
     border-color: transparent;
     display: inline-block;
@@ -55,9 +55,10 @@
       background-color: #C6C6C5;
   }
   #redbutton{
-      padding:0px;
-      margin-top:-5%;
+      padding:1px;
+      margin-top:-3%;
       margin-left:1%;
+      
   }
   #greenbutton{
       margin:2%;
