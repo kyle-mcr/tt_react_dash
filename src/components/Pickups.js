@@ -5,12 +5,13 @@ import {
   ReactiveBase,
   DataSearch,
   ReactiveList,
-  DateRange
+  DateRange, ReactiveComponent
 } from "@appbaseio/reactivesearch";
 import img from "./logo.jpg";
 
 class Pickups extends React.Component {
   render() {
+
     return (
       <div className="main-container">
         <ReactiveBase
